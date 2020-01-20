@@ -17,15 +17,19 @@ node_modules/.lsp
 */*.native
 
 # oasis generated files
-setup.data
-setup.log
+*/setup.data
+*/setup.log
 
 # Merlin configuring file for Vim and Emacs
-.merlin
+*/.merlin
 
 # Dune generated files
 */*.install
+*/dune.*
 
 # Local OPAM switch
 */_opam/
-# echo_server/_build
+
+# Mirage
+
+*/.mirage.*
